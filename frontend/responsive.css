@@ -1,0 +1,276 @@
+
+@media (max-width: 1024px) {
+    .home-content {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 2rem;
+    }
+
+    .home-content .text,
+    .home-content .img {
+        flex: 1 1 100%;
+        text-align: center;
+    }
+
+    .home-content div h1 {
+        font-size: 2rem;
+    }
+
+    .home-content div h2 {
+        font-size: 2.5rem;
+    }
+
+    .home-content div h3 {
+        font-size: 1.5rem;
+    }
+
+    .home-content div p {
+        font-size: 0.9rem;
+    }
+
+    .img img {
+        max-width: 300px;
+    }
+
+    .service-list {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .service-item {
+        width: 80%;
+        max-width: 400px;
+    }
+
+    .serveno {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .about-content {
+        padding: 1rem;
+    }
+
+    #myvideo {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .products {
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        
+    }
+
+    .product {
+        max-width: 80%;
+    }
+
+    .heading h6 {
+        font-size: 2.5rem;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .us {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .ball {
+        width: 80%;
+        max-width: 300px;
+    }
+
+    .floating .one {
+        margin-left: 80%;
+    }
+
+    .floating .two {
+        margin-top: 50px;
+    }
+
+    .transparent,
+    .transparen {
+        width: 100%;
+        max-width: 700px;
+        padding: 2rem;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .transparen {
+        margin-left: 10%;
+    }
+
+    .product-content,
+    .product-contentss,
+    .product-conten {
+        margin: 0 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    #header {
+        width: 95%;
+        padding: 0.5rem;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .navbar.active {
+        display: block;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: rgb(8, 75, 8);
+        padding: 1rem;
+        border-radius: 0 0 20px 20px;
+    }
+
+    #navlist {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    #navlist li {
+        padding: 0.5rem 0;
+    }
+
+    .content {
+        width: 100%;
+        text-align: center;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #close {
+        display: none;
+    }
+
+    #close.active {
+        display: block;
+    }
+
+    .home-content {
+        padding: 0 1rem;
+    }
+
+    .home-content div h1 {
+        font-size: 1.8rem;
+    }
+
+    .home-content div h2 {
+        font-size: 2rem;
+    }
+
+    .home-content div h3 {
+        font-size: 1.2rem;
+    }
+
+    .img img {
+        max-width: 250px;
+    }
+
+    .service {
+        margin-left: 0;
+    }
+
+    .servebutton {
+        gap: 10rem;
+    }
+
+    .service-item {
+        width: 90%;
+    }
+
+    .about-content h6 {
+        font-size: 1.8rem;
+    }
+
+    .numbers {
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .ball {
+        width: 90%;
+        max-width: 250px;
+    }
+
+    .contact-content {
+        padding-top: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    .home-content div h1 {
+        font-size: 1.5rem;
+    }
+
+    .home-content div h2 {
+        font-size: 1.8rem;
+    }
+
+    .home-content div h3 {
+        font-size: 1rem;
+    }
+
+    .home-content div p {
+        font-size: 0.8rem;
+    }
+
+    .img img {
+        max-width: 200px;
+    }
+
+    .service h6 {
+        font-size: 2rem;
+    }
+
+    .service-item h6 {
+        font-size: 1.5rem;
+    }
+
+    .service-item p {
+        font-size: 0.9rem;
+    }
+
+    .about-content h6 {
+        font-size: 1.5rem;
+    }
+
+    .heading h6 {
+        font-size: 1.8rem;
+    }
+
+    .products-content h4 {
+        font-size: 1.5rem;
+    }
+
+    .form input,
+    .form textarea {
+        font-size: 0.8rem;
+    }
+
+    .form button {
+        padding: 0.4rem 0.8rem;
+    }
+}
