@@ -6,12 +6,12 @@ const path = require('path');
 require('dotenv').config();
 
 const app = express();
-app.use(cors({ origin: ['http://localhost:4000', 'http://127.0.0.1:5500'] })); // Allow specific origins
+app.use(cors({ origin: ['http://localhost:4000', 'http://127.0.0.1:5500', 'https://product-page-five-lake.vercel.app'] })); // Allow specific origins
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Serve frontend (adjust path if frontend is outside backend folder)
-app.use(express.static(path.join(__dirname, '..', 'frontend'))); // Update path as needed
+app.use(express.static(path.join(__dirname, '../frontend'))); // Update path as needed
 
 // Nodemailer transporter
 const transporter = nodemailer.createTransport({

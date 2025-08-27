@@ -62,8 +62,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         try {
-            console.log('Sending fetch request to http://localhost:4000/send');
-            const response = await fetch('http://localhost:4000/send', {
+            console.log('Sending fetch request to /send');
+            const response = await fetch('/send', {
                 method: 'POST',
                 body: formData,
             });
